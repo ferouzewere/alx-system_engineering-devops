@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /tmp/h/iacta | awk 'END{print}'
+tail -n 1 iacta | cut >> iacta
